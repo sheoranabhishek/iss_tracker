@@ -1,0 +1,27 @@
+h1 {
+  font-size: 3rem;
+  color: brown;
+  margin-top: 50px;
+}
+h1 > span {
+  color: white;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: black;
+  color: whitesmoke;
+}
+.container {
+  text-align: center;
+}
+
+h3 {
+  margin-top: 30px;
+}
+
+#satmap {
+  height: 400px;
+  width: 80%;
+  margin: 50px auto;
+}
