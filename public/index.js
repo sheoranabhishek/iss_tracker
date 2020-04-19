@@ -10,8 +10,8 @@ tiles.addTo(mymap);
 // Making a marker with a custom icon
 const issIcon = L.icon({
   iconUrl:
-    "https://raw.githubusercontent.com/CodingTrain/Intro-to-Data-APIs-JS/source/module1/03_fetch_json/iss200.png",
-  iconSize: [50, 32],
+    "https://visualpharm.com/assets/695/Satellite%20Sending%20Signal-595b40b85ba036ed117da2c6.svg",
+  iconSize: [100, 64],
   iconAnchor: [25, 16],
 });
 const marker = L.marker([0, 0], { icon: issIcon }).addTo(mymap);
