@@ -4,9 +4,9 @@ const app = express();
 
 app.use(express.static("public"));
 
-// app.get("/", (req, res) => {
-//   app.render("index.html");
-// });
+app.get("/", (req, res) => {
+  app.render("index.html");
+});
 
 const PORT = process.env.PORT || 3000;
 

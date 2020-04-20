@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Satellite Tracker</title>
+    <title>Document</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     />
+
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -23,21 +24,11 @@
   </head>
   <body>
     <div class="container">
-      <a href="/selfie.html"
-        ><button class="btn btn-primary">
-          Selfie App
-        </button></a
-      >
-
-      <h1>Location of <span>International Space Station </span></h1>
-      <h3>Latitude:</h3>
-      <span id="lat"></span>
-      <h3>Longitude</h3>
-      <span id="lon"></span>
+      <h1>Data Selfie App</h1>
+      <p>Latitude: <span id="latitude"></span>&deg</p>
+      <p>Longitude: <span id="longitude"></span>&deg</p>
+      <div id="satmap"></div>
     </div>
-
-    <div id="satmap"></div>
-
-    <script src="index.js"></script>
+    <script src="selfie.js"></script>
   </body>
 </html>
